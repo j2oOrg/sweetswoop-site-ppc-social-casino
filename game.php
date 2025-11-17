@@ -1,6 +1,6 @@
 <?php
 $aliasGroups = [
-    'game5bce.html' => [
+    'tomb-of-gold-ii.php' => [
         'tomb of gold ii',
         'tomb-of-gold-ii',
         'tombofgold2',
@@ -8,35 +8,35 @@ $aliasGroups = [
         'slots',
         'game5bce',
     ],
-    'game6726.html' => [
+    'lion-saga-odyssey.php' => [
         'lion saga odyssey',
         'lion-saga-odyssey',
         'lionsagaodyssey',
         'blackjack',
         'game6726',
     ],
-    'game7c52.html' => [
+    'leprechauns-diamond-dig.php' => [
         "leprechaun's diamond dig",
         'leprechauns diamond dig',
         'leprechauns-diamond-dig',
         'leprechaunsdiamonddig',
         'game7c52',
     ],
-    'game8c47.html' => [
+    'rise-of-orpheus.php' => [
         'rise of orpheus',
         'rise-of-orpheus',
         'riseoforpheus',
         'roulette',
         'game8c47',
     ],
-    'gameb66f.html' => [
+    'myth-of-dead.php' => [
         'myth of dead',
         'myth-of-dead',
         'mythofdead',
         'poker',
         'gameb66f',
     ],
-    'gameeeac.html' => [
+    'beasts-of-fire-maximum.php' => [
         'beasts of fire maximum',
         'beasts-of-fire-maximum',
         'beastsoffiremaximum',

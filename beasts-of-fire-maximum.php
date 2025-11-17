@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from sweetswoop.site/game.php?title=Lion+Saga+Odyssey by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:46 GMT -->
+<!-- Mirrored from sweetswoop.site/game.php?title=Beasts+of+Fire+Maximum by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:46 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lion Saga Odyssey - Social Casino</title>
+    <title>Beasts of Fire Maximum - Social Casino</title>
     <link rel="icon" type="image/png" href="images/logo.webp">
     <link rel="stylesheet" href="css/style30f4.css?v=4">
 </head>
@@ -314,18 +314,18 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="game-wrapper">
                         <div class="game-iframe-container">
                             <iframe 
-                                src="https://released.playngonetwork.com/casino/ContainerLauncher?pid=2&amp;gid=lionsagaodyssey&amp;lang=en_GB&amp;practice=1&amp;channel=desktop&amp;demo=2&amp;refresh=1758627028928" 
+                                src="https://asccw.playngonetwork.com/casino/ContainerLauncher?pid=2&amp;gid=beastsoffiremaximum&amp;lang=en_GB&amp;practice=1&amp;channel=desktop&amp;demo=2&amp;refresh=1758627068580" 
                                 width="100%" 
                                 height="600" 
                                 frameborder="0" 
                                 allowfullscreen
-                                title="Lion Saga Odyssey Game">
+                                title="Beasts of Fire Maximum Game">
                             </iframe>
                         </div>
                         
                         <div class="game-info">
-                            <h3>Lion Saga Odyssey</h3>
-                            <p>Experience the thrill of Lion Saga Odyssey with our free-to-play version!</p>
+                            <h3>Beasts of Fire Maximum</h3>
+                            <p>Experience the thrill of Beasts of Fire Maximum with our free-to-play version!</p>
                             
                             <div class="game-controls">
                                 <button class="play-btn" onclick="location.reload()">Restart Game</button>
@@ -346,21 +346,21 @@ document.addEventListener('DOMContentLoaded', function() {
                                  alt="Tomb of Gold II" 
                                  class="game-icon">
                             <h4>Tomb of Gold II</h4>
-                            <a href="game5bce.html?title=Tomb+of+Gold+II" class="play-btn">Play Now</a>
+                            <a href="tomb-of-gold-ii.php?title=Tomb+of+Gold+II" class="play-btn">Play Now</a>
                         </div>
                                                 <div class="game-card" data-game="c13c39ab342c1ea3e72c2f0c6251ae21">
                             <img src="games-image/leprechaundiamonddig_Panel_Small.webp" 
                                  alt="Leprechaun&#039;s Diamond Dig" 
                                  class="game-icon">
                             <h4>Leprechaun&#039;s Diamond Dig</h4>
-                            <a href="game7c52.html?title=Leprechaun%27s+Diamond+Dig" class="play-btn">Play Now</a>
+                            <a href="leprechauns-diamond-dig.php?title=Leprechaun%27s+Diamond+Dig" class="play-btn">Play Now</a>
                         </div>
-                                                <div class="game-card" data-game="7493f0ed73fe4f5ba9436cbc96815936">
-                            <img src="games-image/riseoforpheus_Panel_Small.webp" 
-                                 alt="Rise of Orpheus" 
+                                                <div class="game-card" data-game="1c39064189e1cd1eb3ebc9c1d31b569a">
+                            <img src="games-image/lionsagaodyssey_Panel_Small.webp" 
+                                 alt="Lion Saga Odyssey" 
                                  class="game-icon">
-                            <h4>Rise of Orpheus</h4>
-                            <a href="game8c47.html?title=Rise+of+Orpheus" class="play-btn">Play Now</a>
+                            <h4>Lion Saga Odyssey</h4>
+                            <a href="lion-saga-odyssey.php?title=Lion+Saga+Odyssey" class="play-btn">Play Now</a>
                         </div>
                                             </div>
                 </div>
@@ -516,5 +516,5 @@ document.addEventListener('DOMContentLoaded', function() {
 <script src="js/cookie-popup30f4.js?v=3"></script>
 </body>
 
-<!-- Mirrored from sweetswoop.site/game.php?title=Lion+Saga+Odyssey by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:46 GMT -->
+<!-- Mirrored from sweetswoop.site/game.php?title=Beasts+of+Fire+Maximum by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:46 GMT -->
 </html>
