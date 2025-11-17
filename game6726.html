@@ -28,11 +28,11 @@
                 <p class="age-subtitle">Adult content ahead — strictly for users aged 18 and above.</p>
                 
                                 <!-- Verification Form -->
-                <form method="POST" class="age-verification-form">
+                <form class="age-verification-form" onsubmit="return false;">
                     <div class="age-buttons">
-                        <button type="submit" name="age_verification" value="confirm" class="age-btn age-btn-primary">
+                        <button type="button" name="age_verification" value="confirm" class="age-btn age-btn-primary">
                             I am 18 or older                        </button>
-                        <button type="submit" name="age_verification" value="deny" class="age-btn age-btn-secondary">
+                        <button type="button" name="age_verification" value="deny" class="age-btn age-btn-secondary">
                             I am under 18                        </button>
                     </div>
                 </form>
