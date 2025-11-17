@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from gameeclipse.games/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:38 GMT -->
+<!-- Mirrored from gameeclipse.games/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:45 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,42 @@
 </head>
 <body>
 
+<!-- Age Verification Popup -->
+<div id="age-verification-popup" class="age-popup-overlay">
+    <div class="age-popup-container">
+        <div class="age-popup-content">
+            <!-- Popup Header -->
+            <div class="age-popup-header">
+                <div class="age-icon">🔞</div>
+                <h2>Age Verification</h2>
+            </div>
+            
+            <!-- Popup Body -->
+            <div class="age-popup-body">
+                <p class="age-message">To continue, you must be 18 years or older. Please confirm your age to access our games and content.</p>
+                <p class="age-subtitle">Adult content ahead — strictly for users aged 18 and above.</p>
+                
+                                <!-- Verification Form -->
+                <form method="POST" class="age-verification-form">
+                    <div class="age-buttons">
+                        <button type="submit" name="age_verification" value="confirm" class="age-btn age-btn-primary">
+                            I am 18 or older                        </button>
+                        <button type="submit" name="age_verification" value="deny" class="age-btn age-btn-secondary">
+                            I am under 18                        </button>
+                    </div>
+                </form>
+                            </div>
+            
+            <!-- Popup Footer -->
+            <div class="age-popup-footer">
+                <p class="age-disclaimer">
+                     All games are for entertainment purposes only. No real money is involved. Enjoy responsibly and have fun!                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
+<!-- Age Verification Styles -->
 <style>
 .age-popup-overlay {
     position: fixed;
@@ -613,5 +648,5 @@ document.addEventListener('DOMContentLoaded', function() {
 <script src="js/cookie-popup30f4.js?v=3"></script>
 </body>
 
-<!-- Mirrored from gameeclipse.games/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:44 GMT -->
+<!-- Mirrored from gameeclipse.games/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:45 GMT -->
 </html>
