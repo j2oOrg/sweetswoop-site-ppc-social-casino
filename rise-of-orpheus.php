@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from sweetswoop.site/game.php?title=Rise+of+Orpheus by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:46 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -516,5 +514,4 @@ document.addEventListener('DOMContentLoaded', function() {
 <script src="js/cookie-popup30f4.js?v=3"></script>
 </body>
 
-<!-- Mirrored from sweetswoop.site/game.php?title=Rise+of+Orpheus by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Nov 2025 12:37:46 GMT -->
 </html>
