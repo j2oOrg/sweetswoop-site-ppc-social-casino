@@ -1,15 +1,10 @@
-# Static site image built on nginx
-FROM nginx:1.27-alpine
+# PHP site built on Apache httpd
+FROM php:8.2-apache
 
-# Remove default nginx content before copying the static site.
-RUN rm -rf /usr/share/nginx/html/*
+# Copy the repository (filtered by .dockerignore) into Apache's document root.
+COPY . /var/www/html
 
-# Copy the repository (filtered by .dockerignore) into the web root.
-COPY . /usr/share/nginx/html
-
-# Surface the favicon at the expected root path for browsers.
-RUN cp /usr/share/nginx/html/public/favicon.ico /usr/share/nginx/html/favicon.ico
+# Surface the favicon at the expected root path for browsers if present.
+RUN cp /var/www/html/public/favicon.ico /var/www/html/favicon.ico 2>/dev/null || true
 
 EXPOSE 80
-
-CMD ["nginx","-g","daemon off;"]
