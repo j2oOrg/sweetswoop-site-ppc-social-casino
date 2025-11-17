@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeGames();
     updateAuthNavigation();
     initializeGameSearch();
+    initializeAgeVerification();
 });
 
 // Update authentication navigation based on login status
@@ -265,3 +266,57 @@ window.SocialCasino = {
     logout,
     initializeGameSearch
 };
+
+// Handle the age verification prompt entirely on the client to avoid 405s
+function initializeAgeVerification() {
+    const popup = document.getElementById('age-verification-popup');
+    if (!popup) return;
+
+    const form = popup.querySelector('.age-verification-form');
+    const confirmBtn = popup.querySelector('button[name="age_verification"][value="confirm"]');
+    const denyBtn = popup.querySelector('button[name="age_verification"][value="deny"]');
+    const body = document.body;
+    const ageKey = 'ageVerified';
+
+    const enablePageAccess = () => {
+        body.style.overflow = '';
+        body.style.pointerEvents = '';
+        popup.style.display = 'none';
+    };
+
+    const blockPageUntilVerified = () => {
+        popup.style.display = 'flex';
+        popup.style.pointerEvents = 'auto';
+        body.style.overflow = 'hidden';
+        body.style.pointerEvents = 'none';
+    };
+
+    if (localStorage.getItem(ageKey) === 'true') {
+        enablePageAccess();
+        return;
+    }
+
+    blockPageUntilVerified();
+
+    if (form) {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+        });
+    }
+
+    if (confirmBtn) {
+        confirmBtn.addEventListener('click', function(event) {
+            event.preventDefault();
+            localStorage.setItem(ageKey, 'true');
+            enablePageAccess();
+        });
+    }
+
+    if (denyBtn) {
+        denyBtn.addEventListener('click', function(event) {
+            event.preventDefault();
+            localStorage.removeItem(ageKey);
+            alert('You must be 18 or older to continue.');
+        });
+    }
+}
