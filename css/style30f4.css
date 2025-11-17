@@ -160,7 +160,7 @@ body {
     padding: 6rem 0;
     background: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('../images/hero-background.jpg');
+        url('../images/hero-background.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
