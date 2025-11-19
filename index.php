@@ -9,6 +9,40 @@
     <link rel="stylesheet" href="css/style30f4.css?v=4">
 </head>
 <body>
+<!-- Age Verification Popup -->
+<div id="age-verification-popup" class="age-popup-overlay">
+    <div class="age-popup-container">
+        <div class="age-popup-content">
+            <!-- Popup Header -->
+            <div class="age-popup-header">
+                <div class="age-icon">🔞</div>
+                <h2>Age Verification</h2>
+            </div>
+            
+            <!-- Popup Body -->
+            <div class="age-popup-body">
+                <p class="age-message">To continue, you must be 18 years or older. Please confirm your age to access our games and content.</p>
+                <p class="age-subtitle">Adult content ahead — strictly for users aged 18 and above.</p>
+                
+                                <!-- Verification Form -->
+                <form class="age-verification-form" onsubmit="return false;">
+                    <div class="age-buttons">
+                        <button type="button" name="age_verification" value="confirm" class="age-btn age-btn-primary">
+                            I am 18 or older                        </button>
+                        <button type="button" name="age_verification" value="deny" class="age-btn age-btn-secondary">
+                            I am under 18                        </button>
+                    </div>
+                </form>
+                            </div>
+            
+            <!-- Popup Footer -->
+            <div class="age-popup-footer">
+                <p class="age-disclaimer">
+                     All games are for entertainment purposes only. No real money is involved. Enjoy responsibly and have fun!                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <style>
 .age-popup-overlay {
@@ -611,3 +645,4 @@ document.addEventListener('DOMContentLoaded', function() {
 </body>
 
 </html>
+
